@@ -1,0 +1,10 @@
+module.exports=
+{
+    MONGOURI:process.env.MONGOURI,
+    JWT_SECRET:process.env.JWT_SECRET,
+    SENDGRID_API:process.env.SENDGRID_API,
+    accountid:process.env.accountid,
+    serviceid:process.env.serviceid,
+    authtoken:process.env.authtoken,
+    EMAIL:process.env.EMAIL
+}

@@ -1,0 +1,92 @@
+@media only screen and (max-width: 480px) {
+    .Toastify__toast-container{
+      width:50%;
+    }
+  }
+  @media only screen and (max-height:600px) {
+    .Toastify__toast{
+      min-height: 40px  !important ;
+    }
+    .open-component{
+       min-height:100%   !important
+    }
+  }
+
+  .btn {
+    position: absolute;
+    left:32%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+      color: white; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .MuiDrawer-paper{
+    background-color: #CF0029 !important;
+  }
+  .MuiToolbar-regular{
+    background-color: #CF0029;
+  }
+  .MuiTypography-root{
+    color:#ffffff
+  }
+  .MuiTypography-colorPrimary
+  {
+    color: #CF0029 !important;
+  }
+  .MuiSvgIcon-root{
+    color:#ffffff;
+    margin-right: 7px;
+  }
+  .MuiAvatar-root
+  {
+    background-color:#CF0029 !important ;
+  }
+  .MuiInput-underline:after{
+    border-bottom:0.1px solid black !important;
+  }
+  .MuiFormLabel-root.Mui-focused
+  {
+    color: black !important;
+  }
+.MuiTypography-body1
+{
+  padding-top: 5px !important;
+  line-height: 1.7 !important;
+  font-weight: 700 !important;
+}
+.MuiToolbar-gutters 
+{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.icon{
+  float: right !important;
+}
+.PrivateSwitchBase-root-5{
+padding-bottom: 3px !important;
+padding-right: 0px !important;
+}
+.MuiFormControlLabel-root{
+ margin-left: 0px !important;
+}
+.MuiButton-fullWidth
+{
+  width: 100px !important;
+}
+.MuiButton-root
+{
+  color:#ffffff !important;
+}
+.MuiCardContent-root:last-child 
+{
+  height: 200px !important;
+}
+.MuiCard-root {
+  margin:3% !important
+}
+.MuiTypography-h5
+{
+    color: black !important;
+}
